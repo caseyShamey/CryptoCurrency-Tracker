@@ -33,8 +33,19 @@ html {
 
 .pagination {
   list-style: none;
+  font-size: 120%;
 }
 
-.reactPaginate {
-  color: red;
+ul {
+  text-align: center;
+}
+
+li {
+  display: inline;
+  margin: 2%;
+}
+
+li:hover {
+  color: blue;
+  cursor: pointer;
 }

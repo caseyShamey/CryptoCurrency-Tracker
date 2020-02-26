@@ -82,9 +82,7 @@ class App extends Component {
               <div className="container">
                 {this.state.elements}
               </div>
-              <div className="pagination">
                 {paginationElement}
-              </div>
             </div>
           }
 

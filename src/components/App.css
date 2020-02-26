@@ -1,0 +1,40 @@
+html {
+  background-color: white;
+  color: black;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.currency {
+  height: 20%;
+  width: 20%;
+  margin: 5%;
+}
+
+.icon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.name {
+  text-align: center;
+  background-color: white;
+  color: black;
+  font-size: 200%;
+}
+
+.pagination {
+  list-style: none;
+}
+
+.reactPaginate {
+  color: red;
+}

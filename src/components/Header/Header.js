@@ -1,9 +1,15 @@
-import React from 'react';
+import React, { Component } from 'react';
 
 import './Header.css';
 
-function Header() {
-  return <p>CryptoCurrency Tracker</p>
+class Header extends Component {
+  constructor(props) {
+    super(props)
+  }
+
+  render() {
+    return <p>{this.props.name}</p>
+  }
 }
 
 export default Header;
